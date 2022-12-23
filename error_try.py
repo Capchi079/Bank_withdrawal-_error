@@ -1,10 +1,6 @@
 class error(BaseException):
     def __init__(self,m):
         self.message=m
-
-
-
-
 class bank2:
     bank_name='sbi'
     babk_roi=7
