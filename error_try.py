@@ -10,7 +10,7 @@ class bank2:
         self.customerbal=cb
     def withdrawall(self):
         self.n=self.get_data()
-        if self.customerbal>self.n:
+        if self.customerbal>=self.n:
             self.customerbal-=self.n
             print('withdrwa sucessfull')
         else:
